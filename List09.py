@@ -6,4 +6,11 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    if list1 == list1[::-1]:
+        return True
+    else:
+        return False
+print(main([0, 0, 0, 0, 0]))
+print(main(['x', 'x', 'y', 'y', 'z']))
+
+    
